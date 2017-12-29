@@ -2,6 +2,7 @@ SFTP-deployment@1.0.2
 Sublime-Style-Column-Selection@1.7.4
 atom-alignment@0.13.0
 atom-clock@0.1.15
+atom-terminal@0.8.0
 autoclose-html@0.23.0
 autocomplete-paths@2.12.1
 busy-signal@1.4.3
