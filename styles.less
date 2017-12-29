@@ -1,0 +1,75 @@
+/*
+ * Your Stylesheet
+ *
+ * This stylesheet is loaded when Atom starts up and is reloaded automatically
+ * when it is changed.
+ *
+ * If you are unfamiliar with LESS, you can read more about it here:
+ * http://www.lesscss.org
+ */
+
+// ファイルツリー
+// ==============================
+.tree-view {
+  background: #000;
+
+  ol.entries.list-tree li {
+    // ファイルツリーのフォントサイズが大きすぎるので変更
+    font-size: 10pt;
+    font-family: Ricty;
+
+    span.icon:before {
+      // フォルダ・ファイルアイコンは8ptだとつぶれるので 10pt に
+      font-size: 10pt;
+    }
+  }
+
+  // 選択中のファイル
+  .selected:before {
+    background: #333300;
+  }
+}
+
+
+// パネル
+// ==============================
+.vertical {
+  // パネルの境界がわかりにくいのでborderの色を変更
+  .panes .pane-row > *,
+  .panes .pane-column > * {
+    border-right: 1px solid rgba(150, 150, 150, 0.2);
+  }
+}
+
+
+// エディタ
+// ==============================
+atom-text-editor {
+  background: #000;
+
+  // カラム番号部分
+  .gutter {
+    background: #000;
+  }
+
+  // カレント行
+  .line.cursor-line {
+    background: #333300;
+  }
+
+  // selection
+  .selection .region {
+    background-color: #333300;
+  }
+  &.is-focused .selection .region {
+    background-color: #333300;
+  }
+
+  // キャレット
+  .cursors {
+    .cursor {
+      border-color: #0f0;
+      border-width: 2px;
+    }
+  }
+}
