@@ -22,7 +22,6 @@ linter-ui-default@1.6.10
 merge-conflicts@1.4.5
 minimap@4.29.7
 monokai@0.24.0
-native-ui@0.25.2
 pigments@0.40.2
 project-manager@3.3.5
 sort-lines@0.18.0
@@ -30,6 +29,5 @@ sync-settings@0.8.3
 tablr@1.8.3
 terminal-plus@0.14.5
 trailing-spaces@0.4.0
-unity-ui@2.1.11
 vim-mode-plus@1.25.0
 
