@@ -31,6 +31,7 @@ project-manager@3.3.5
 sort-lines@0.18.0
 sync-settings@0.8.3
 tablr@1.8.3
+teletype@0.4.0
 terminal-plus@0.14.5
 trailing-spaces@0.4.0
 vim-mode-plus@1.25.0
