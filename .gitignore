@@ -7,4 +7,5 @@ storage
 .npm
 
 # add
+config.cson
 packages
