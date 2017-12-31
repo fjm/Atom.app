@@ -8,30 +8,41 @@
  * http://www.lesscss.org
  */
 
-// ファイルツリー
+/*
+
+- UI theme : One Dark
+- Syntax theme : Monokai
+
+*/
+
+// tree
 // ==============================
 .tree-view {
   background: #000;
 
-  ol.entries.list-tree li {
-    // ファイルツリーのフォントサイズが大きすぎるので変更
-    font-size: 10pt;
-    font-family: Ricty;
+  ol.entries.list-tree {
+    // ファイルツリーの各アイテム
+    li {
+      font-size: 10pt;
+      font-family: Ricty;
+    }
 
+    // フォルダ・ファイルアイコン
     span.icon:before {
-      // フォルダ・ファイルアイコンは8ptだとつぶれるので 10pt に
       font-size: 10pt;
     }
   }
 
   // 選択中のファイル
-  .selected:before {
-    background: #333300;
+  .selected {
+    &:before {
+      background: #333300;
+    }
   }
 }
 
 
-// パネル
+// panel
 // ==============================
 .vertical {
   // パネルの境界がわかりにくいのでborderの色を変更
@@ -43,11 +54,14 @@
 
 // tab
 // ==============================
-.tab-bar .tab.active[data-type$="Editor"] {
-  background: #333300;
+.tab-bar {
+  // カレントタブ色
+  .tab.active[data-type$="Editor"] {
+    background: #333300;
+  }
 }
 
-// エディタ
+//  editor
 // ==============================
 atom-text-editor {
   background: #000;
