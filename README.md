@@ -2,9 +2,10 @@
 
 ## packages
 
-```
-// エクスポート
-apm list --installed --bare > packages.txt
-// インポート
-apm install --packages-file packages.txt
+```bash
+# export
+$ apm list --installed --bare > packages.txt
+
+# import
+$ apm install --packages-file packages.txt
 ```
