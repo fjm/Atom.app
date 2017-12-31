@@ -1,8 +1,7 @@
-# Atom.app
+# [Atom.app](https://atom.io/)
 
 ![screen 2017-12-31 at 22 50 34](https://user-images.githubusercontent.com/971124/34462006-2032c768-ee7d-11e7-8170-e910c90722de.png)
 
-- [Atom](https://atom.io/)
 
 ## packages
 
