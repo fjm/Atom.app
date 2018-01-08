@@ -71,28 +71,52 @@
 
 ## minimap
 
+minimapを表示
+
 ## minimap-autohide
+
+minimapを非表示(スクロール時に表示)
+
 
 ## minimap-highlight-selected
 
+
 ## minimap-pigments
+
 
 ## monokai
 
+theme
+
+## open-terminal-here
+
+> [open-terminal-here](https://atom.io/packages/open-terminal-here)
+
+- `ctrl` + `cmd` + `T` : Open the Terminal in the current directory
+
+
 ## pigments
+
 
 ## project-manager
 
+
 ## sort-lines
+
 
 ## sync-settings
 
+
 ## tablr
+
 
 ## teletype
 
+
 ## terminal-plus
 
+
 ## trailing-spaces
+
 
 ## vim-mode-plus
