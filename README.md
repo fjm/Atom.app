@@ -13,6 +13,9 @@ $ apm list --installed --bare > packages.txt
 $ apm install --packages-file packages.txt
 ```
 
+ref. [packages](packages.md)
+
+
 ## Settings
 
 以下も使ってる
