@@ -49,6 +49,10 @@
 
 ## intentions
 
+## language-vue
+
+> https://atom.io/packages/language-vue-component
+
 ## linter
 
 ## linter-coffeelint
