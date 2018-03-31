@@ -69,6 +69,36 @@ atom-text-editor {
   // カラム番号部分
   .gutter {
     background: #000;
+
+    &.git-diff-icon {
+      .line-number {
+        &:before {
+          font-size: .7em;
+          width: 1.2em;
+        }
+
+        &[class*="git"] {
+          opacity: .9;
+        }
+
+        &.git-line-added {
+          background-color: rgba(168, 255, 96, 0.1);
+        }
+
+        &.git-line-modified {
+          background-color: rgba(233, 192, 98, 0.2);
+        }
+
+        &.git-line-removed {
+          background-color: rgba(204, 102, 102, 0.2);
+
+          &:before {
+            top: 0;
+          }
+        }
+      }
+    }
+
   }
 
   // カレント行
